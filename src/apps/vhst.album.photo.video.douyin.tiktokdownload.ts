@@ -12,7 +12,8 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: 'com.google.android.gms.ads.AdActivity',
-          matches: '@Button < View <2 View <2 View < View < View < View < WebView < WebView < FrameLayout <2 RelativeLayout < [id="android:id/content"]',
+          matches:
+            '@Button < View <2 View <2 View < View < View < View < WebView < WebView < FrameLayout <2 RelativeLayout < [id="android:id/content"]',
           snapshotUrls: 'https://i.gkd.li/i/21246397',
         },
       ],
