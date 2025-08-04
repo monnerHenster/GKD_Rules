@@ -1,4 +1,6 @@
-{
+import { defineGkdApp } from '@gkd-kit/define';
+
+export default defineGkdApp({
   id: 'air.tv.douyu.android',
   name: '斗鱼',
   groups: [
@@ -17,3 +19,4 @@
     },
   ],
 }
+);
