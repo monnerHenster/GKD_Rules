@@ -17,12 +17,9 @@ export default defineGkdApp({
         },
       ],
     },
+    
     {
-  id: 'air.tv.douyu.android',
-  name: '斗鱼',
-  groups: [
-    {
-      key: 1,
+      key: 2,
       name: '[ChangeMe]规则名称-2025-08-05 22:00:37',
       desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
       rules: [
@@ -34,7 +31,5 @@ export default defineGkdApp({
         },
       ],
     },
-  ],
-},
   ],
 });
