@@ -17,7 +17,7 @@ export default defineGkdApp({
         },
       ],
     },
-    
+
     {
       key: 2,
       name: '[ChangeMe]规则名称-2025-08-05 22:00:37',
