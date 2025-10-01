@@ -1,7 +1,6 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineGkdApp(
-  {
+export default defineGkdApp({
   id: 'com.ss.android.lark',
   name: '飞书',
   groups: [
@@ -12,8 +11,10 @@ export default defineGkdApp(
       rules: [
         {
           fastQuery: true,
-          activityIds: 'com.ss.android.lark.gadget.container.standard.placeholder.MiniappTabActivity5',
-          matches: '@View < View <2 View <2 View <3 View < View <2 View < View < View <6 View < View < View < WebView < WebView <2 FrameLayout < [vid="microapp_m_swipe_target"]',
+          activityIds:
+            'com.ss.android.lark.gadget.container.standard.placeholder.MiniappTabActivity5',
+          matches:
+            '@View < View <2 View <2 View <3 View < View <2 View < View < View <6 View < View < View < WebView < WebView <2 FrameLayout < [vid="microapp_m_swipe_target"]',
           snapshotUrls: 'https://i.gkd.li/i/22629519',
         },
       ],
